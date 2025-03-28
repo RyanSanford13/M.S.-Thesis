@@ -5,10 +5,10 @@ These scripts were created solely by Ryan Sanford in the completion of his M.S. 
 
 Copyright (c) 2025 Ryan Sanford
 
-List of Major Projects and Associated Files
+List of Major Projects and Associated Scripts
 	<br /> &emsp; DICOM File Conversion 
 		<br /> &emsp; &emsp; convertRTStructToSeg.m
-	<br /> &emsp; Needle Optimization 
+	<br /> &emsp; Needle Path Optimization 
     	<br /> &emsp; &emsp; comittee_sphere.m
     	<br /> &emsp; &emsp; comittee_anatomy.m
     	<br /> &emsp; &emsp; optimize_dwell_times.m
@@ -22,5 +22,18 @@ List of Major Projects and Associated Files
     	<br /> &emsp; &emsp; checkIntersect.m
     	<br /> &emsp; &emsp; generatePointsAlongLine.m
     	<br /> &emsp; &emsp; isPointInSphere.m
+     	<br /> &emsp; &emsp; Consensus_data.m
 
-Detailed descriptions of each of the major projects can be found in the project-specific README files. 
+Detailed descriptions of each of the major projects can be found below.
+
+
+## DICOM File Conversion 
+Description: Code used to convert a DICOM RT Structure (RT) File into a DICOM Surface Segmentation (SEG) File. User provides an image set and the RT file. The script extracts the relevant information from the RT file needed to 
+<br> input: 
+	<br> &emsp; *RT filename*.dcm - RT file exported from treatment planning system; linked to volume MR image set 
+ 	<br> &emsp; *image filepath* - path to folder containing associated volume MR image set that the RT file was created on 
+<br> 
+
+## Needle Path Optimization 
+Description: Collection of scripts used in the two wrappers - *committee_sphere.m* and *committee_anatomy.m* - to facillitate optimized selection of needle paths for use in GYN HDR brachytherapy. *committee_sphere.m* requires 
+
