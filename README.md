@@ -23,4 +23,4 @@ List of Major Projects and Associated Files
     	<br /> &emsp; &emsp; generatePointsAlongLine.m
     	<br /> &emsp; &emsp; isPointInSphere.m
 
-Detailed descriptions of each of the major projects can be found in the project-specific branch README files. 
+Detailed descriptions of each of the major projects can be found in the project-specific README files. 
