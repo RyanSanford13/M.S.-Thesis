@@ -66,7 +66,7 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
 <br> Description: Wrapper script to perform needle path optimization over a sphere. 
 <br> functions:
 	<br> &emsp; *randTri.m*
- 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the <br> &emsp; &emsp; triangulated entry and/or target zone(s) and selects a triangle based on a probability distribution defined by the area of the triangles within the mesh 
+ 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the <br> &emsp; &emsp; triangulated entry and/or target zone(s) and selects a triangle based on a probability distribution defined by <br> &emsp; &emsp; the area of the triangles within the mesh 
   	<br> &emsp; *uniformSample.m*
    	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() <br> &emsp; &emsp; function and randomly selects a point within the boundaries of the triangle
     	<br> &emsp; *checkIntersect.m*
@@ -87,10 +87,10 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
    	<br> &emsp; vagina.mat
     	<br> &emsp; hrctv_marg.mat 
 <br> functions: 
-	<br> &emsp; _randTri.m_
- 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the triangulated entry and/or  <br> &emsp; &emsp; target zone(s) and selects a triangle based on a probability distribution defined by the area of the triangles within the mesh 
-	<br> &emsp; _uniformSample.m_
-   	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() function and randomly <br> &emsp; &emsp; selects a point within the boundaries of the triangle
+	<br> &emsp; *randTri.m*
+ 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the <br> &emsp; &emsp; triangulated entry and/or target zone(s) and selects a triangle based on a probability distribution defined by <br> &emsp; &emsp; the area of the triangles within the mesh 
+  	<br> &emsp; *uniformSample.m*
+   	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() <br> &emsp; &emsp; function and randomly selects a point within the boundaries of the triangle
 
 
 
