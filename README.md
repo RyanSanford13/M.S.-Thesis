@@ -97,6 +97,7 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
  	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path
 	<br> &emsp; *inpolyhedron.m*
  	<br> &emsp; &emsp; Description: MathWorks Exchange function available here: <br> &emsp; &emsp; https://www.mathworks.com/matlabcentral/fileexchange/37856-inpolyhedron-are-points-inside-a-triangulated-volume; determines if a point is within a triangulated mesh
-  
+	<br> &emsp; *greedy_needle_selection.m*
+     	<br> &emsp; &emsp; Description: See entry below; Optimization script used to determine the optimal needle paths over a target 
 
 
