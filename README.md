@@ -23,7 +23,7 @@ List of Major Projects and Associated Scripts
     	<br /> &emsp; &emsp; generatePointsAlongLine.m
     	<br /> &emsp; &emsp; isPointInSphere.m
      	<br /> &emsp; &emsp; Consensus_data.m
-Associated Data Files
+<br> Associated Data Files
 	<br /> &emsp; &emsp; 192ir-hdr_gammamed_plus.xls
 
 Detailed descriptions of each of the major projects can be found below.
