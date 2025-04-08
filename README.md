@@ -66,15 +66,15 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
 <br> Description: Wrapper script to perform needle path optimization over a sphere. 
 <br> functions:
 	<br> &emsp; *randTri.m*
- 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the triangulated entry and/or  <br> &emsp; &emsp; target zone(s) and selects a triangle based on a probability distribution defined by the area of the triangles within the mesh 
+ 	<br> &emsp; &emsp; Description: Selects a triangle from a provided mesh based on probability proportional to area; takes the <br> &emsp; &emsp; triangulated entry and/or target zone(s) and selects a triangle based on a probability distribution defined by the area of the triangles within the mesh 
   	<br> &emsp; *uniformSample.m*
-   	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() function and randomly <br> &emsp; &emsp; selects a point within the boundaries of the triangle
+   	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() <br> &emsp; &emsp; function and randomly selects a point within the boundaries of the triangle
     	<br> &emsp; *checkIntersect.m*
-     	<br> &emsp; &emsp; Description: determines if a line intersects a trinagulated mesh; determines if the needle path, represented as a line, intersects the <br> &emsp; &emsp; sphere target (sphere triangulated mesh)
+     	<br> &emsp; &emsp; Description: determines if a line intersects a trinagulated mesh; determines if the needle path, represented as <br> &emsp; &emsp; a line, intersects the sphere target (sphere triangulated mesh)
 	<br> &emsp; *generatePointsAlongLine.m*
- 	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path of the needle path, 
+ 	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path, 
   	<br> &emsp; *isPointInSphere.m*
-   	<br> &emsp; &emsp; Description: determines if a point lies withing a sphere mesh; determines if a dwell position is located within the spherical target
+   	<br> &emsp; &emsp; Description: determines if a point lies withing a sphere mesh; determines if a dwell position is located within <br> &emsp; &emsp; the spherical target
     	<br> &emsp; *greedy_needle_selection.m*
      	<br> &emsp; &emsp; Description: See entry below; Optimization script used to determine the optimal needle paths over a target
 
