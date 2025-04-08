@@ -72,7 +72,7 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
     	<br> &emsp; *checkIntersect.m*
      	<br> &emsp; &emsp; Description: determines if a line intersects a trinagulated mesh; determines if the needle path, represented as <br> &emsp; &emsp; a line, intersects the sphere target (sphere triangulated mesh)
 	<br> &emsp; *generatePointsAlongLine.m*
- 	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path, 
+ 	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path 
   	<br> &emsp; *isPointInSphere.m*
    	<br> &emsp; &emsp; Description: determines if a point lies withing a sphere mesh; determines if a dwell position is located within <br> &emsp; &emsp; the spherical target
     	<br> &emsp; *greedy_needle_selection.m*
@@ -92,8 +92,9 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
   	<br> &emsp; *uniformSample.m*
    	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() <br> &emsp; &emsp; function and randomly selects a point within the boundaries of the triangle
     	<br> &emsp; *TrinagleRayIntersection.m* 
-     	<br> &emsp; Description: MathWorks Exchange function available here: <br> &emsp; &emsp;https://www.mathworks.com/matlabcentral/fileexchange/33073-triangle-ray-intersection; determines if a line intersects a triangulated mesh 
-      
+     	<br> &emsp; &emsp; Description: MathWorks Exchange function available here: <br> &emsp; &emsp; https://www.mathworks.com/matlabcentral/fileexchange/33073-triangle-ray-intersection; determines if a line <br> &emsp; &emsp; intersects a triangulated mesh 
+	<br> &emsp; *generatePointsAlongLine.m*
+ 	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path
 
 
 
