@@ -95,6 +95,7 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
      	<br> &emsp; &emsp; Description: MathWorks Exchange function available here: <br> &emsp; &emsp; https://www.mathworks.com/matlabcentral/fileexchange/33073-triangle-ray-intersection; determines if a line <br> &emsp; &emsp; intersects a triangulated mesh 
 	<br> &emsp; *generatePointsAlongLine.m*
  	<br> &emsp; &emsp; Description: generates points along a line a uniform distances; generates the dwell locations along the path <br> &emsp; &emsp; of the needle path
-
+	<br> &emsp; *inpolyhedron.m*
+ 	<br> &emsp; &emsp; Description: MathWorks Exchange function available here: https://www.mathworks.com/matlabcentral/fileexchange/37856-inpolyhedron-are-points-inside-a-triangulated-volume; determines if a point is withing a triangulated mesh
 
 
