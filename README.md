@@ -108,5 +108,5 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
   	<br> &emsp; *dose_eval.m*
    	<br> &emsp; &emsp; Description: evaluates a given dose distribution for its conformance to defined target dose objectives and OAR constraints
     	<br> &emsp; *optimize_dwell_times.m*
-     	<br> &emsp; &emsp; Description: Optimizes dwell times given defined dwell positions contained in provided needle paths using MATLAB's optimization toolbox
+     	<br> &emsp; &emsp; Description: Optimizes dwell times given defined dwell positions contained in provided needle paths using MATLAB's optimization <br> &emsp; &emsp; toolbox
       
