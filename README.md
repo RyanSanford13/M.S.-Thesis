@@ -92,7 +92,8 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
   	<br> &emsp; *uniformSample.m*
    	<br> &emsp; &emsp; Description: Randomly selects a point within a provided polygon; takes the triangle chosen from the randTri() <br> &emsp; &emsp; function and randomly selects a point within the boundaries of the triangle
     	<br> &emsp; *TrinagleRayIntersection.m* 
-     	<br> &emsp; Description: MathWorks Exchange function available here: https://www.mathworks.com/matlabcentral/fileexchange/33073-triangle-ray-intersection; determines if a line intersects a triangulated mesh 
+     	<br> &emsp; Description: MathWorks Exchange function available here: <br> &emsp; &emsp;https://www.mathworks.com/matlabcentral/fileexchange/33073-triangle-ray-intersection; determines if a line intersects a triangulated mesh 
+      
 
 
 
