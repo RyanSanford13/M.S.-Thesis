@@ -46,13 +46,13 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
 <br> _organMesh.m_
 <br> Description: Creates triangulated meshes of anatomy from provided DICOM RT file. Anatomy serves as base geometry that can be optimized over for needle path optimization
 <br> inputs: 
-	<br> &emsp; *RT filename.dcm* - RT file exported from treatment planning system; Contains anatomy contours; linked to volume  MR image set
+	<br> &emsp; *RT filename.dcm* - RT file exported from treatment planning system; Contains anatomy contours; linked to <br> &emsp; volume MR image set
  	<br> &emsp; *image filepath* - path to folder containing associated volume MR image set that the RT file was created on
   <br> output:
-  	<br> &emsp; *organ_name.mat* - structure containing the organ mesh (faces and vertices) and the binary mask used in the triangulation process
+  	<br> &emsp; *organ_name.mat* - structure containing the organ mesh (faces and vertices) and the binary mask used in the <br> &emsp; triangulation process
 <br> functions:
 	<br> &emsp; *createBinaryMask.m* 
- 	<br> &emsp; Description: Creates a 3D binary mask by concatenating 2D binary masks based on contour data from the provided MR volume image <br> &emsp; set and RT file
+ 	<br> &emsp; Description: Creates a 3D binary mask by concatenating 2D binary masks based on contour data from the <br> &emsp; provided MR volume image set and RT file
 <br>
 <br> _Consensus_data.m_
 <br> Description: Processes HDR source consensus data for use in TG-43 dose calculations in the needle path optimization process
