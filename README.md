@@ -100,4 +100,13 @@ Description: Collection of scripts used in the two wrappers - *committee_sphere.
 	<br> &emsp; *greedy_needle_selection.m*
      	<br> &emsp; &emsp; Description: See entry below; Optimization script used to determine the optimal needle paths over a target 
 
-
+<br> _greedy_needle_selection.m_
+<br> Description: Wrapper script for the needle path optimization process
+<br> functions:
+	<br> &emsp; *dose_calc.m*
+ 	<br> &emsp; &emsp; Description: calculates the dose distribution over a defined calculation grid given dwell times and needle locations
+  	<br> &emsp; *dose_eval.m*
+   	<br> &emsp; &emsp; Description: evaluates a given dose distribution for its conformance to defined target dose objectives and OAR constraints
+    	<br> &emsp; *optimize_dwell_times.m*
+     	<br> &emsp; &emsp; Description: Optimizes dwell times given defined dwell positions contained in provided needle paths using MATLAB's optimization toolbox
+      
